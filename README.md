@@ -7,6 +7,10 @@
 
 > Source code, schematics, documentation, and pictures of my Ben Eater-inspired 65c02 build
 
+> VASM 6502 Oldstyle code
+
+> Be sure to check out Ben Eater 
+
 ### 🏠 [Homepage](https://github.com/commanderHR1/6502)
 
 ## Author
