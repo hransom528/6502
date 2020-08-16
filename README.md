@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to 6502 👋</h1>
+<h1 align="center">6502</h1>
 <p>
   <a href="https://github.com/commanderHR1/6502/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
