@@ -5,6 +5,9 @@ main: main.s
 	
 rotateLights: rotateLights.s
 	vasm6502_oldstyle -Fbin -dotdir -esc -o rotateLights rotateLights.s # && minipro -p AT28C256 -w rotateLights
+
+lcdHelloWorld: lcdHelloWorld.s
+	vasm6502_oldstyle -Fbin -dotdir -esc -o lcdHelloWorld lcdHelloWorld.s # && minipro -p AT28C256 -w lcdHelloWorld
 	
 clean: main rotateLights
 	rm main rotateLights
