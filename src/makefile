@@ -1,4 +1,4 @@
-all: main rotateLights lcdHelloWorld decToBin
+all: main rotateLights lcdHelloWorld decToBin interrupt
 
 main: main.s
 	vasm6502_oldstyle -Fbin -dotdir -esc -o main main.s # && minipro -p AT28C256 -w main
@@ -11,6 +11,9 @@ lcdHelloWorld: lcdHelloWorld.s
 
 decToBin: decToBin.s
 	vasm6502_oldstyle -Fbin -dotdir -esc -o decToBin decToBin.s # && minipro -p AT28C256 -w decToBin
+
+interrupt: interrupt.s
+	vasm6502_oldstyle -Fbin -dotdir -esc -o interrupt interrupt.s # && minipro -p AT28C256 -w interrupt
 	
-clean: main rotateLights lcdHelloWorld decToBin
-	rm main rotateLights lcdHelloWorld decToBin
+clean: main rotateLights lcdHelloWorld decToBin interrupt
+	rm main rotateLights lcdHelloWorld decToBin interrupt

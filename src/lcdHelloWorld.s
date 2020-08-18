@@ -1,8 +1,10 @@
+; IO
 PORTB = $6000		; Port B of 6522
 PORTA = $6001		; Port A of 6522
 DDRB =  $6002		; Data Direction Register for Port B of 6522
 DDRA =  $6003		; Data Direction Register for Port A of 6522
 
+; LCD
 E =  %10000000		; LCD Enable pin on port A
 RW = %01000000		; LCD R/W pin on port A
 RS = %00100000		; LCD Register select pin on port A
@@ -88,3 +90,4 @@ print_char:
     .org $fffc          ; Reset vector
     .word reset
     .word $0000         ; Padding for EOF
+

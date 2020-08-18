@@ -1,3 +1,4 @@
+; IO
 PORTB = $6000   ; Port B of 6522
 PORTA = $6001   ; Port A of 6522
 DDRB =  $6002   ; Data Direction Register for Port B of 6522
