@@ -9,7 +9,7 @@
 
 > VASM 6502 Oldstyle code
 
-> Be sure to check out Ben Eater 
+> Be sure to check out [Ben Eater!](https://eater.net/)
 
 ### 🏠 [Homepage](https://github.com/commanderHR1/6502)
 
