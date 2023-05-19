@@ -11,5 +11,13 @@
 
 > Be sure to check out [Ben Eater!](https://eater.net/)
 
-Copyright © 2020 [Harris Ransom](https://github.com/commanderHR1).<br />
+Figure 1
+05/2023 Schematic:
+![6502 Schematic]("/photos/Schematic_6502 Computer_2023-05-19.png")
+
+Figure 2
+05/2023 PCB Layout:
+![6502 PCB]("PCB_PCB_6502 Computer_2023-05-19.png")
+
+Copyright © 2023 [Harris Ransom](https://github.com/commanderHR1).<br />
 This project is [MIT](https://github.com/commanderHR1/6502/blob/master/LICENSE) licensed.
